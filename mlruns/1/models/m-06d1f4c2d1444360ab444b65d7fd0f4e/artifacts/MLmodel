@@ -1,0 +1,39 @@
+artifact_path: file:///D:/New folder/student_dropout_mlops/mlruns/1/models/m-06d1f4c2d1444360ab444b65d7fd0f4e/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.10.11
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.2
+    skops_trusted_types: null
+is_signature_from_type_hint: false
+mlflow_version: 3.10.1
+model_id: m-06d1f4c2d1444360ab444b65d7fd0f4e
+model_size_bytes: 2423
+model_uuid: m-06d1f4c2d1444360ab444b65d7fd0f4e
+prompts: null
+run_id: df2866c2e9c74aab981b723ff0d61c09
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  serving_input_path: serving_input_example.json
+  type: dataframe
+signature:
+  inputs: '[{"type": "long", "name": "age", "required": true}, {"type": "double",
+    "name": "gpa", "required": true}, {"type": "double", "name": "study_time", "required":
+    true}, {"type": "long", "name": "absences", "required": true}, {"type": "long",
+    "name": "parent_support", "required": true}, {"type": "long", "name": "extracurricular",
+    "required": true}, {"type": "long", "name": "financial_stress", "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float64", "shape": [-1,
+    2]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2026-03-15 16:29:15.464577'

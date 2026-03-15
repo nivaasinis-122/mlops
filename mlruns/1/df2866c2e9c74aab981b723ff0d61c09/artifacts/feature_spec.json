@@ -1,0 +1,49 @@
+{
+  "feature_names": [
+    "age",
+    "gpa",
+    "study_time",
+    "absences",
+    "parent_support",
+    "extracurricular",
+    "financial_stress"
+  ],
+  "target": "dropout",
+  "ranges": {
+    "age": {
+      "min": 16.0,
+      "max": 22.0,
+      "mean": 19.0275
+    },
+    "gpa": {
+      "min": 0.975793587392608,
+      "max": 4.0,
+      "mean": 2.7742577579104615
+    },
+    "study_time": {
+      "min": 0.0,
+      "max": 5.559531228996823,
+      "mean": 2.4885812971940657
+    },
+    "absences": {
+      "min": 0.0,
+      "max": 14.0,
+      "mean": 4.926666666666667
+    },
+    "parent_support": {
+      "min": 1.0,
+      "max": 5.0,
+      "mean": 3.0516666666666667
+    },
+    "extracurricular": {
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.5008333333333334
+    },
+    "financial_stress": {
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.5158333333333334
+    }
+  }
+}
